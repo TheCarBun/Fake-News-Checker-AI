@@ -1,11 +1,9 @@
 import streamlit as st
-import requests, os
-from dotenv import load_dotenv
-load_dotenv()
+import requests
 
 # API endpoint URL
 url = "https://api.langflow.astra.datastax.com/lf/9be127bf-705e-4d94-ac54-e95e0a78d267/api/v1/run/b2e787d4-5a96-4727-945b-08d119c9cab5"
-API_TOKEN = os.getenv("API_TOKEN")
+API_TOKEN = st.secrets["API_TOKEN"]
 
 headers = {
     "Content-Type": "application/json",
