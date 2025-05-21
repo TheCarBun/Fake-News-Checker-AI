@@ -1,6 +1,8 @@
-# AI Fact Checker
+# [AI Fact Checker](https://isitfakenews.streamlit.app/)
 
-AI Fact Checker is a simple web application that allows users to verify facts and claims using an AI-powered backend. The app is built with Streamlit for the user interface and leverages a Langflow API endpoint for fact-checking responses.
+[AI Fact Checker](https://isitfakenews.streamlit.app/) is a simple web application that allows users to verify facts and claims using an AI-powered backend. The app is built with Streamlit for the user interface and leverages a Langflow API endpoint for fact-checking responses.
+
+Check it out here 👉🏼 https://isitfakenews.streamlit.app/
 
 ## Features
 
